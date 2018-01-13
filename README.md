@@ -13,11 +13,11 @@ python 3.*
 [WiP]
 
 
-*To run the Python script*
+### To run the Python script
 In the terminal, run:
 $ python main.py
 
-## Theory
+### Theory
 Reinforcement Learning:
 https://en.wikipedia.org/wiki/Reinforcement_learning
 
