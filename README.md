@@ -1,6 +1,6 @@
 # Getting started on Machine Learning
 
-*Prerequisites*
+### Prerequisites
 python 3.*
 
 
@@ -26,13 +26,13 @@ Editors used:
 Atom
 Vim
 
-Programming languages:
+### Programming languages
 Python 3.5
 
-libraries:
+### libraries 
 scikit
 TensorFlow
 
-Programming environment:
+### Programming environment
 GIT
 virtualenv
