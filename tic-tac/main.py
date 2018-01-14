@@ -1,6 +1,11 @@
 """Module implements Machine Learning algorithm for a Tic-Tac-Toe game."""
 import sys
+import random
+
 from time import sleep
+
+# 3rd party libraries
+import numpy
 
 
 class Game(object):
@@ -10,8 +15,13 @@ class Game(object):
         super(Game, self).__init__()
         self.arg = arg
 
+    def get_random_matrix(self):
+        # Output: ([0, 1, 0], [1, 0, 1], [0, 1, 1])
+        return numpy.random.randint(2, size=(3,3))
+
+
     def print_matrix(self, matrix):
-        # Input[tuple]: matrix = ([0, 1, 0], [1, 0, 1], [0, 1, 1])
+        # Input[iterable]: matrix = ([0, 1, 0], [1, 0, 1], [0, 1, 1])
         # Output: Tic-Tac-Toe board
         for row in matrix:
             val = lambda x: 'x' if x else 'o'
@@ -29,9 +39,8 @@ def main():
     # var = input("Please enter something: ")
     # print("You entered " + str(var))
 
-    matrix = ([0, 1, 0], [1, 0, 1], [0, 1, 1])
-
     game = Game()
+    matrix = game.get_random_matrix()
     game.print_matrix(matrix)
 
 
