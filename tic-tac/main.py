@@ -40,8 +40,13 @@ def main():
     # print("You entered " + str(var))
 
     game = Game()
-    matrix = game.get_random_matrix()
-    game.print_matrix(matrix)
+
+    for itr in range(0, 10):
+        matrix = game.get_random_matrix()
+        print('Game %d: ------------------' % (itr + 1))
+        game.print_matrix(matrix)
+        sleep(1)
+
 
 
 if __name__ == '__main__':
