@@ -31,6 +31,10 @@ class Game(object):
 
             print(line)
 
+    def check_if_winning_ticket(self):
+        # Checks if the 3x3 matrix has a winning row, column or diagonal
+        pass
+
 
 def main():
     """Run the program in the terminal."""
