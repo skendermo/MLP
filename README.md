@@ -1,6 +1,6 @@
 # Getting started on Machine Learning
 
-*Prerequisites*
+### Prerequisites
 python 3.*
 
 
@@ -13,26 +13,10 @@ python 3.*
 [WiP]
 
 
-*To run the Python script*
+### To run the Python script
 In the terminal, run:
 $ python main.py
 
-## Theory
+### Theory
 Reinforcement Learning:
 https://en.wikipedia.org/wiki/Reinforcement_learning
-
-## Tools
-Editors used:
-Atom
-Vim
-
-Programming languages:
-Python 3.5
-
-libraries:
-scikit
-TensorFlow
-
-Programming environment:
-GIT
-virtualenv
