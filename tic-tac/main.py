@@ -80,7 +80,6 @@ def main():
         matrix = game.get_random_matrix()
         print('Game %d: ------------------' % (itr + 1))
         game.print_matrix(matrix)
-        sleep(1)
 
 
 if __name__ == '__main__':
